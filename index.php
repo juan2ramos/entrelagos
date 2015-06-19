@@ -19,7 +19,7 @@ try{
     $fileName = ROOT . 'views' . DS . $url . '.php' ;
 
     if(is_readable($fileName)){
-        $title = str_replace("-", " ", $url);
+        $title = ($url === 'home')?"Condominios Entrelaos - invertir en Villavicencio ":str_replace("-", " ", $url);
         require_once ROOT . 'layout' .DS . 'default.php';
     }else{
         throw new Exception("Error 404 pagina no existe: ". $_GET['url'] , 1);

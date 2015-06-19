@@ -15,13 +15,13 @@
     <meta charset="utf-8">
     <meta name="author" content="ICL Desarrollo urbano"/>
     <meta name="contact" content="juan2ramos@gmail.com"/>
-    <meta name="description" content=" condominio campestre ENTRELAGOS, ubicado en Villavicencio. Lotes entre 1200mts2 y 2800mts2 "/>
+    <meta name="description" content=" condominio campestre ENTRELAGOS, ubicado en Villavicencio. Lotes entre 1200mts2 y 2800mts2. Invertir en Villavicencio es la mejor opción  "/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1"/>
 
     <!-- Meta Facebook -->
-    <meta property="og:url" content="">
-    <meta property="og:title" content="EntreLagos"/>
-    <meta property="og:description" content=""/>
+    <meta property="og:url" content="http://entrelagosvillavicencio.com.co">
+    <meta property="og:title" content="ICL - EntreLagos Condominios campestre "/>
+    <meta property="og:description" content="condominio campestre ENTRELAGOS, ubicado en Villavicencio. Lotes entre 1200mts2 y 2800mts2. Invertir en Villavicencio es la mejor opción"/>
     <meta property="og:image" content="images/logo.png"/>
 
 

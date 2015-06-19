@@ -1,31 +1,33 @@
-    $(function  () {
-	 /* SLIDER */
-        if ($('.slider').length > 0) {
-                $('.slider').flexslider({
-                animation: "none",
-                slideshow: true,
-                prevText: "<",
-                nextText: ">" 
-              });
+$(function () {
+
+    /* Form */
+    $('#form-contact').on("submit", function (e) {
+        e.preventDefault();
+        var fields = $(this).serializeArray();
+
+        $.post("email.php", fields, responseForm, 'json');
+
+
+    });
+    function responseForm(r) {
+        console.log(r);
+        if (r.success == 0) {
+            alert(r.message);
         }
-        /* Form */
-        $('#form-contact').on("submit", function (e) {
-            e.preventDefault();
-            var fields = $(this).serializeArray();
-
-            $.post("email.php", fields, responseForm, 'json');
-
-
-        });
-        function responseForm(r) {
-            console.log(r);
-            if (r.success == 0) {
-                alert(r.message);
-            }
-            else {
-                $('#contact-form').text('');
-                $('#contact-form').append("<span class='message'>" + r.message + "<span>");
-            }
+        else {
+            $('#contact-form').text('');
+            $('#contact-form').append("<span class='message'>" + r.message + "<span>");
         }
-  
+    }
+
+});
+$(window).load(function () {
+    $('.flexslider').flexslider({
+        animation: "slide",
+        start: function (slider) {
+            $('body').removeClass('loading');
+        }
+    });
+    navSlide();
+
 });
