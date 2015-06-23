@@ -224,7 +224,7 @@ form figure {
     width: 465px;
     left: 62%;
     margin-left: -556px;
-    top: 75px;
+    top: 145px;
     color: black;
     padding: 20px 15px 3px;
     box-sizing: border-box;
@@ -244,7 +244,10 @@ form figure {
     margin: 10px 0 15px;
 }
 @media  (max-height:800px) {
-form {top: 50px;}
+    form {top: 50px;}
+    .content-info{
+        top: 75px;
+    }
 }
 
 @media  (max-width:900px) {
