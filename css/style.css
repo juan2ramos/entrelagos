@@ -251,6 +251,10 @@ form {top: 50px;}
     .flexslider,form{
         position: static;
         width: 90%;
+        margin-left: 4%;
+    }
+    .flexslider{
+
         margin-left: 5%;
     }
     form h3{
@@ -278,6 +282,14 @@ form {top: 50px;}
         box-sizing: border-box;
         box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.2);
         height: auto;
+    }
+    hr{
+        width: 98%;
+        position: relative;
+        left: -3px;
+    }
+    .flexslider span{
+        display: none;
     }
 
 }

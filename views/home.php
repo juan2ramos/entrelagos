@@ -49,7 +49,7 @@
     <ul class="slides">
         <li>
             <div class="content-info">
-                <h1> SEDES SOCIALES PARQUE LOS CAIMITOS</h1>
+                <h1> <span>SEDES SOCIALES</span> PARQUE LOS CAIMITOS</h1>
 
                 <p>
                     Todo está listo para vivir una experiencia de relajación, salud y bienestar en un ambiente de
@@ -60,7 +60,7 @@
         </li>
         <li>
             <div class="content-info">
-                <h1>SEDES SOCIALES PARQUE INFANTIL FUERTE APACHE</h1>
+                <h1><span>SEDES SOCIALES</span> PARQUE INFANTIL FUERTE APACHE</h1>
 
                 <p>
                     Un “mundo” para los niños con la diversión de las piscinas, el fuerte apache y el tobogán. ENTRELAGOS es entretenimiento con seguridad y tranquilidad para disfrutar en familia.
@@ -70,7 +70,7 @@
         </li>
         <li>
             <div class="content-info">
-                <h1> SEDES SOCIALES SENDERO DE CABALGATAS </h1>
+                <h1><span>SEDES SOCIALES</span> SENDERO DE CABALGATAS </h1>
 
                 <p>
                     ENTRELAGOS es la entrada a una fantástica experiencia con la naturaleza. Desde la salida del sol hasta el atardecer sobre el piedemonte llanero.
@@ -82,7 +82,7 @@
         </li>
         <li>
             <div class="content-info">
-                <h1> SEDES SOCIALES LA CASONA DEL LAGO </h1>
+                <h1> <span>SEDES SOCIALES</span> LA CASONA DEL LAGO </h1>
 
                 <p>
                     Frente al reservorio náutico, con frescura y comodidad, La Casona deL Lago es la sede central que permite disfrutar un ambiente tropical.
