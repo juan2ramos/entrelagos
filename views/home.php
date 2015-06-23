@@ -37,6 +37,8 @@
     <input type="submit" class="submit"/>
     </div>
     <hr/>
+    <div class="center"> Contáctenos en: 320 469 73 02</div>
+    <hr/>
 
     <div class="redes">
         <a href="https://www.facebook.com/DesarrolloUrbanoICL"><span class="icon-facebook face"></span></a>
