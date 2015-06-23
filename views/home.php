@@ -9,8 +9,8 @@
         <li>• Reservorio para deportes náuticos y toda la naturaleza del piedemonte llanero.</li>
     </ul>
 
+    <div id="content-form">
     <h3>INGRESA TUS DATOS</h3>
-
     <div class="input-contend">
         <label for="name-user">Nombre Completo: </label>
         <input type="text" id="name-user" name="name-user"/>
@@ -35,13 +35,13 @@
     </div>
 
     <input type="submit" class="submit"/>
-
+    </div>
     <hr/>
 
     <div class="redes">
-        <a href=""><span class="icon-facebook face"></span></a>
-        <a href=""><span class="icon-instagram"></span></a>
-        <a href=""><span class="icon-twitter"></span></a>
+        <a href="https://www.facebook.com/DesarrolloUrbanoICL"><span class="icon-facebook face"></span></a>
+        <a href="https://instagram.com/ICLdesarrollourbano"><span class="icon-instagram"></span></a>
+        <a href="https://twitter.com/ICL_DesarrolloU"><span class="icon-twitter"></span></a>
     </div>
     <figure class="figure-none"><img src="images/logo-icl.png" alt="logo"/></figure>
 </form>

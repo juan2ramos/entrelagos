@@ -13,10 +13,14 @@ $(function () {
         console.log(r);
         if (r.success == 0) {
             alert(r.message);
+
+            $('#content-form').text('');
+
+            $('#content-form').append("<span class='message'>" + r.message + "<span>");
         }
         else {
-            $('#contact-form').text('');
-            $('#contact-form').append("<span class='message'>" + r.message + "<span>");
+            $('form').text('');
+            $('form').append("<span class='message'>" + r.message + "<span>");
         }
     }
 
