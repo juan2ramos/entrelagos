@@ -16,20 +16,22 @@
             </select>
         </div>
         <div class="input-contend">
-            <label for="name-user">nombre : </label>
+            <label for="name-user">Nombre Completo: </label>
             <input type="text" id="name-user" name="name-user"/>
         </div>
+
         <div class="input-contend">
-            <label for="company">Empresa : </label>
-            <input type="text" id="company" name="company"/>
-        </div>
-        <div class="input-contend">
-            <label for="email">E-mail : </label>
+            <label for="email">Correo Electrónico  : </label>
             <input type="email" id="email" name="email"/>
         </div>
         <div class="input-contend">
             <label for="phone">Telefono : </label>
             <input type="tel" id="phone" name="phone"/>
+        </div>
+
+        <div class="input-contend">
+            <label for="phone">Ciudad : </label>
+            <input type="text" id="city" name="city"/>
         </div>
         <div class="input-contend">
             <label for="comment">Comentario : </label>

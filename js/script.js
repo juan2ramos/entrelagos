@@ -24,6 +24,7 @@ $(function () {
 $(window).load(function () {
     $('.flexslider').flexslider({
         animation: "slide",
+        slideshowSpeed:	7000,
         start: function (slider) {
             $('body').removeClass('loading');
         }
