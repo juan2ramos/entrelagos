@@ -23,10 +23,10 @@ if (!empty($_POST)) {
     $mail->AddAddress('andres.rivera@simonsein.com ', '');
     if($mail->Send()){
         $arrayMsj['success'] = TRUE;
-        $arrayMsj['message'] = 'Felicitaciones, su mensaje a sido enviado con éxito!!';
+        $arrayMsj['message'] = '¡Felicitaciones, su mensaje ha sido enviado con éxito!';
     }else{
         $arrayMsj['success'] = false;
-        $arrayMsj['message'] = 'Su mensaje no a sido enviado con éxito!!';
+        $arrayMsj['message'] = '¡Su mensaje no ha sido enviado con éxito!';
     }
 
     echo (json_encode($arrayMsj));
