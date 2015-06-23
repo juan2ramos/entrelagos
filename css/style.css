@@ -128,7 +128,7 @@ form {
 form h2 {
     color: #c13234;
     text-align: center;
-    margin: 22px 0 10px;
+    margin: 10px 0 10px;
     font-weight: 100;
     font-size: 28px;
     letter-spacing: -1px;
@@ -161,9 +161,7 @@ form input, form textarea {
     box-sizing: border-box;
 }
 
-form textarea {
-    height: 50px;
-}
+
 
 form input[type="submit"] {
     background: #c13234;
